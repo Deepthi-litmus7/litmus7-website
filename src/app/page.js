@@ -1,7 +1,8 @@
+import Text from './components/Text'
 const Main=()=>{
     return(
         <div> 
-            Main
+            <Text/>
         </div>
     )
 }
