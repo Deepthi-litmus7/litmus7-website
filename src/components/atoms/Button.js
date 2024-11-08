@@ -1,8 +1,10 @@
-const Button=()=>{
-    return(
-        <div> 
-            Button
-        </div>
-    )
-}
-export default Button
+const Button = ({text, className}) => {
+  return (
+    <div>
+      <button className={className}>
+       {text}
+      </button>
+    </div>
+  );
+};
+export default Button;
