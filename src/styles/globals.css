@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+
+/* Light theme (default) */
+:root {
+  --color-primary: #4f46e5;
+  --color-background: #ffffff;
+  --color-text: #1f2937;
+  --color-border: #d1d5db;
+  --color-accent: #10b981;
+
+
+  /* Spacing (REM) */
+  /* --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem; */
+
+  /* Padding (REM) */
+  /* --padding-xs: 0.25rem;
+    --padding-sm: 0.5rem;
+    --padding-md: 1rem;
+    --padding-lg: 1.5rem;
+    --padding-xl: 2rem; */
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --color-primary: #6366f1;
+  --color-background: #1f2937;
+  --color-text: #ffffff;
+  --color-border: #374151;
+  --color-accent: #22c55e;
+}
