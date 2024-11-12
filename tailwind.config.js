@@ -39,6 +39,9 @@ module.exports = {
         'merri-lightitalic': ['var(--merriLightItalic)'],
         'merri-italic': ['var(--merriItalic)'],
       },
+      fontFamily: {
+        'merriweather': ['Merriweather', 'serif'], // Add Merriweather with a fallback to serif
+      },
     },
   },
   plugins: [],
