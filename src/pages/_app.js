@@ -4,11 +4,11 @@ import Footer from '../components/organisms/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <>
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </div>
+    </>
   );
 }
 
