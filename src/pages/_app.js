@@ -5,9 +5,9 @@ import Footer from '../components/organisms/Footer';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
+      <Header/>
       <Component {...pageProps} />
-      <Footer />
+      <Footer/>
     </>
   );
 }
